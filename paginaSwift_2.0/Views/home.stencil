@@ -1,0 +1,7 @@
+{% extends "master.stencil" %}
+
+{% block body %}
+  <h1>Bienvenidos a mi página web</h1>
+{% endblock %}
+
+{% block title %}Bienvenido{% endblock %}

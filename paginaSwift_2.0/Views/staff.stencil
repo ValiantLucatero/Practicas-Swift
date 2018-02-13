@@ -1,0 +1,21 @@
+{% extends "master.stencil" %}
+{% block body %}
+  {% if name %}
+    <h1>{{ name|capitalize }}</h1>
+    <p>{{ bio }}</p>
+  {% else %}
+    <h1>Miembro del staff desconocido</h1>
+    <p>No conocemos a esa persona</p>
+  {% endif %}
+
+  <p>Elige un miembro del staff para ver:</p>
+  <ul>
+    {% for person in people %}
+      <li><a href="/staff/{{ person }}">{{ person|capitalize }}</a></li>
+    {% empty %}
+      <li>No se encontraron miembros</li>
+    {% endfor %}
+  </ul>
+{% endblock %}
+
+{% block title %}Staff{% endblock %}

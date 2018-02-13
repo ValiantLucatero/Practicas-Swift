@@ -1,0 +1,7 @@
+{% extends "master.stencil" %}
+{% block title %}Contacto{% endblock %}
+
+{% block body %}
+  <h1>Ponte en contacto con nosotros</h1>
+  <p>Nuestro número es: 55-1234</p>
+{% endblock %}

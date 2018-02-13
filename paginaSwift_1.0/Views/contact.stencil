@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Ponte en contacto con nosotros</h1>
+  <p>Nuestro número es: 55-1234</p>
+  {% include "footer.stencil" %}
+</body>
+</html>

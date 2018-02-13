@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>{% block title%}{% endblock %} - PROTECO</title>
+</head>
+<body>
+  {% block body %}{% endblock %}
+  
+  {% include "footer.stencil" %}
+</body>
+</html>
